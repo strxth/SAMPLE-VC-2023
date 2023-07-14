@@ -13,7 +13,7 @@ services:
     build:
       context: ./frontend # Path to the frontend project directory
     ports:
-      - 82:80
+      - 80:80
     container_name: frontend
 
   # mysql:
